@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Project1DogWalker</string>
+    <string name="appname">Hassan Ihsan Dog Walker</string>
+    <string name="purpose">The purpose of this app, is to keep track of the name as well as the date and time that you will be walking the dogs!</string>
+    <string name="strbtnLable">START TRACKING!</string>
+    <string name="ViewDogs">VIEW!</string>
+    <string name="AddDogs">SAVE!</string>
+    <string name="DeteleDog">DELETE!</string>
+    <string name="DogNameView">Dog Name: </string>
+    <string name="DogDateView">Date: </string>
+    <string name="instusview">Please enter, the name of the dog  And the Date, Then Press Save!</string>
+    <string name="deleteall">DELETE ALL!</string>
+    <string name="enterDOgName">Enter Dog Name</string>
+    <string name="EnterDate">Enter Date: YYYY/MM/DD</string>
+    <string name="contentDescripton">DOGICON</string>
+    <string name="return_button">Add More!</string>
+    <string name="button_settings">Settings!</string>
+</resources>

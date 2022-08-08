@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText_Date"
+            android:layout_width="715dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:hint="@string/EnterDate"
+            app:layout_constraintBottom_toTopOf="@+id/button_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_marginEnd="33dp"
+            android:background="#388E3C"
+            android:backgroundTint="#771919"
+            android:text="@string/AddDogs"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_view"
+            app:layout_constraintHorizontal_bias="0.357"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.884" />
+
+        <Button
+            android:id="@+id/button_view"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_marginEnd="28dp"
+            android:background="#388E3C"
+            android:text="@string/ViewDogs"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_settings"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.896" />
+
+        <Button
+            android:id="@+id/button_settings"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_marginEnd="8dp"
+            android:background="#388E3C"
+            android:text="@string/button_settings"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.873" />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="716dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/enterDOgName"
+            app:layout_constraintBottom_toTopOf="@+id/editText_Date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.862" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="699dp"
+            android:layout_height="49dp"
+            android:text="@string/instusview"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/edittext_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.773" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
